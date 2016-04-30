@@ -2,15 +2,17 @@
 layout: post
 title: First Post
 excerpt: "This is the first post that isn't included in the sample"
-modified: 2016-04-30
+modified: {}
 categories: articles
-tags: [sample-post]
-image:
+tags: 
+  - "sample-post"
+image: 
   feature: backdrop.png
   credit: WindyEwe
-  creditlink: http://windyewe.com
+  creditlink: "http://windyewe.com"
 comments: true
 share: true
+published: true
 ---
 
 
@@ -23,3 +25,5 @@ Here are some more smaller comments
 ### Body text
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
+
+#Here is another heading
