@@ -1,0 +1,5 @@
+bxml2-dev
+libxslt1-dev
+libreadline6-dev
+build-essential
+zlib1g-dev
