@@ -5,7 +5,7 @@ locale: en_US
 description: Hand Woven and Hand Knit Accessories
 logo: windy_ewe_circle_logo.png
 search: true
-url: http://localhost:4000
+url: http://windyewe.com
 
 # Jekyll configuration
 
