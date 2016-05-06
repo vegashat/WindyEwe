@@ -26,4 +26,4 @@ Here are some more smaller comments
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
-# Here is another heading
+# Here is another heading : Chris
