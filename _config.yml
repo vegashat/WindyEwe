@@ -50,8 +50,8 @@ prose:
       - name: "excerpt"
         field:
           element: "text"
-          label: "Last date post was modified"
-          placeholder: "YYYY-MM-DD"
+          label: "Brief description of the post"
+          placeholder: "You will love this post"
           alterable: true
       - name: "modified"
         field:
