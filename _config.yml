@@ -69,15 +69,7 @@ prose:
   		field:
         	element : "text"
             label : "feature"
-            placeholder : "backdrop.png"
-         field:
-         	element : "text"
-            label :"credit"
-            placeholder:"WindyEwe"
-         field:
-         	element:"hidden"
-            label:"creditlink"
-            value:"http://windyewe.com"      
+            placeholder : "backdrop.png"    
   - name : "comments"
   		field :
         	label:"Comments"
