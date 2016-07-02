@@ -50,36 +50,7 @@ prose:
         	label:"Enter a small description of the post"
         	element:"text"
             placeholder : "You will love this post"
-  - name : "modified"
-  		field:
-        	label : "Has this page been modified?"
-            element : "text"
-            placeholder : "YYYY-MM-DD"
-  - name : "categories"
-  		field :
-        	element : "hidden"
-            label : "categories"
-            value : "articles"
-  - name : "tags"
-  		field : 
-        	element : "text"
-            label : "Tags for posts"
-            placeholder :"Enter any tags here, separated by spaces"
-  - name : "image"
-  		field:
-        	element : "text"
-            label : "feature"
-            placeholder : "backdrop.png"    
-  - name : "comments"
-  		field :
-        	label:"Comments"
-            element: "hidden"
-            value:true
-  - name : "share"
-  		field :
-        	label:"Share"
-            element: "hidden"
-            value:true
+  
 
 # Default extensions
 post_ext: md
