@@ -33,6 +33,22 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Octopress
 
+#prose.io
+prose:
+  media: 'media'
+  metadata:
+	layout: post
+    excerpt: 'Brief description of the post'
+    modified: {}
+    categories: articles
+    tags: 'Enter any tags here'
+    image:
+      feature: backdrop.png
+      credit: WindyEwe
+      creditlink: 'http://windyewe.com'
+    comments: true
+    share: true
+
 # Default extensions
 post_ext: md
 page_ext: md
