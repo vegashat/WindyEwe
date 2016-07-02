@@ -1,15 +1,15 @@
 ---
 layout: post
 title: First Post
-excerpt: "This is the first post that isn't included in the sample"
+excerpt: This is the first post that isn't included in the sample
 modified: {}
 categories: articles
-tags: 
-  - "sample-post"
-image: 
+tags:
+  - sample-post
+image:
   feature: backdrop.png
   credit: WindyEwe
-  creditlink: "http://windyewe.com"
+  creditlink: 'http://windyewe.com'
 comments: true
 share: true
 published: true
@@ -18,6 +18,8 @@ published: true
 
 # Here is a big heading
 Here are some comments below
+
+Need to add something to see if it will save
 
 ## Here is a smaller heading
 Here are some more smaller comments
