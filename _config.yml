@@ -36,7 +36,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 #prose.io
 prose:
   rooturl: '_posts'
-  siteurl: 'http://windyese.com/'
+  siteurl: 'http://windyewe.com/'
   ignore:
     - index.md
     - _config.yml
