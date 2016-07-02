@@ -51,11 +51,6 @@ prose:
           label: "Layout"
           element: "hidden"
           value: "post"
-  - name : "excerpt"
-  		field:
-        	label:"excerpt"
-        	element:"text"
-            placeholder : "You will love this post"
 
 
 # Default extensions
