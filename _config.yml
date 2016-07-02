@@ -39,6 +39,7 @@ prose:
   siteurl: 'http://windyewe.com'
   media: 'media'
   metadata:
+  	_posts:
   - name: "layout"
         field:
           label: "Layout"
