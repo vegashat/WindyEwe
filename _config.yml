@@ -59,12 +59,12 @@ prose:
           label: "Post title"
           placeholder: "Title"
           alterable: true
-      - name : "comments"
-  		field :
+      - name: "comments"
+  		field:
           element: "hidden"
           value: "true"
-      - name : "share"
-  		field :
+      - name: "share"
+  		field:
           element: "hidden"
           value: "true"
 
