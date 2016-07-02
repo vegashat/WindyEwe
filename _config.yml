@@ -44,11 +44,11 @@ prose:
     - /_includes
   metadata:
     _posts:
-    - name: "category"
+- name: "layout"
         field:
+          label: "Layout"
           element: "hidden"
-          value: "articles"
-
+          value: "post"
 
 # Default extensions
 post_ext: md
