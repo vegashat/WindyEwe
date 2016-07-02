@@ -35,6 +35,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 #prose.io
 prose:
+
+  rooturl: '_posts/articles'
+  siteurl: 'http://windyewe.com'
   media: 'media'
   metadata:
 	layout: post
