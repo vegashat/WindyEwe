@@ -37,23 +37,6 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 prose:
   rooturl: '_posts'
   siteurl: 'http://windyewe.com/'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-  metadata:
-    _posts:
-  - name: "layout"
-        field:
-          label: "Layout"
-          element: "hidden"
-          value: "post"
-  - name : "excerpt"
-  		field:
-        	label:"Enter a small description of the post"
-        	element:"text"
-            placeholder : "You will love this post"
   
 
 # Default extensions
