@@ -62,11 +62,11 @@ prose:
       - name : "comments"
   		field :
             element: "hidden"
-            value:true
+            value:"true"
       - name : "share"
   		field :
             element: "hidden"
-            value:true
+            value:"true"
 
 # Default extensions
 post_ext: md
