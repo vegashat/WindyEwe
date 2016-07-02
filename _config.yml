@@ -35,22 +35,58 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 #prose.io
 prose:
-
   rooturl: '_posts/articles/'
   siteurl: 'http://windyewe.com'
   media: 'media'
   metadata:
-	layout: post
-    excerpt: 'Brief description of the post'
-    modified: {}
-    categories: articles
-    tags: 'Enter any tags here'
-    image:
-      feature: backdrop.png
-      credit: WindyEwe
-      creditlink: 'http://windyewe.com'
-    comments: true
-    share: true
+  - name: "layout"
+        field:
+          label: "Layout"
+          element: "hidden"
+          value: "post"
+  - name : "excerpt"
+  		field:
+        	label:"Enter a small description of the post"
+        	element:"text"
+            placeholder : "You will love this post"
+  - name : "modified"
+  		field:
+        	label : "Has this page been modified?"
+            element : "text"
+            placeholder : "YYYY-MM-DD"
+  - name : "categories"
+  		field :
+        	element : "hidden"
+            label : "categories"
+            value : "articles"
+  - name : "tags"
+  		field : 
+        	element : "text"
+            label : "Tags for posts"
+            placeholder :"Enter any tags here, separated by spaces"
+  - name : "image"
+  		field:
+        	element : "text"
+            label : "feature"
+            placeholder : "backdrop.png"
+         field:
+         	element : "text"
+            label :"credit"
+            placeholder:"WindyEwe"
+         field:
+         	element:"hidden"
+            label:"creditlink"
+            value:"http://windyewe.com"      
+  - name : "comments"
+  		field :
+        	label:"Comments"
+            element: "hidden"
+            value:true
+  - name : "share"
+  		field :
+        	label:"Share"
+            element: "hidden"
+            value:true
 
 # Default extensions
 post_ext: md
