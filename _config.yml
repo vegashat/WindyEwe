@@ -61,12 +61,12 @@ prose:
           alterable: true
       - name : "comments"
   		field :
-            element: "hidden"
-            value: "true"
+          element: "hidden"
+          value: "true"
       - name : "share"
   		field :
-            element: "hidden"
-            value: "true"
+          element: "hidden"
+          value: "true"
 
 # Default extensions
 post_ext: md
