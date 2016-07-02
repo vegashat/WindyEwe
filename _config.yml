@@ -60,11 +60,11 @@ prose:
           placeholder: "Title"
           alterable: true
       - name: "comments"
-  		field:
+        field:
           element: "hidden"
           value: "true"
       - name: "share"
-  		field:
+        field:
           element: "hidden"
           value: "true"
 
