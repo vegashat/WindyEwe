@@ -8,7 +8,7 @@ search: true
 url: http://windyewe.com
 
 prose :
-	media:'images'
+	media:'media'
 
 # Jekyll configuration
 
