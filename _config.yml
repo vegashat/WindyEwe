@@ -5,6 +5,7 @@ description: Hand Woven and Hand Knit Accessories
 logo: windy_ewe_circle_logo.png
 search: true
 url: http://windyewe.com
+baseurl: /
 
 # Jekyll configuration
 
