@@ -53,11 +53,17 @@ prose:
           label: "Brief description of the post"
           placeholder: "You will love this post"
           alterable: true
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Enter any tags here, separated by spaces"
+          placeholder: "yarn fiber weaving spinning"
+          alterable: true
       - name: "modified"
         field:
           element: "text"
-          label: "Post title"
-          placeholder: "Title"
+          label: "Last modified date"
+          placeholder: "YYYY-MM-DD"
           alterable: true
       - name: "comments"
         field:
@@ -67,6 +73,16 @@ prose:
         field:
           element: "hidden"
           value: "true"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "articles"
+      - name: "image"
+        field:
+          element: "hidden"
+          label: "feature"
+          value: "backdrop.png"
+          
 
 # Default extensions
 post_ext: md
